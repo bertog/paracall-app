@@ -1,0 +1,20 @@
+{
+  "name": "paracall/paracall",
+  "description": "Web App Framework based on LiteMedia Paracall Framework",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Guido Bertolino",
+      "email": "bertog974@gmail.com"
+    }
+  ],
+  "require": {
+    "paracall/framework": "dev-develop"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  }
+}
