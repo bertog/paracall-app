@@ -247,12 +247,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bertog/paracall.git",
-                "reference": "04dad0952a3b96125c0e0b2648ffdffe21bd6ca4"
+                "reference": "4d328589a93e505c7bc1feb7e831b8db04b443da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bertog/paracall/zipball/04dad0952a3b96125c0e0b2648ffdffe21bd6ca4",
-                "reference": "04dad0952a3b96125c0e0b2648ffdffe21bd6ca4",
+                "url": "https://api.github.com/repos/bertog/paracall/zipball/4d328589a93e505c7bc1feb7e831b8db04b443da",
+                "reference": "4d328589a93e505c7bc1feb7e831b8db04b443da",
                 "shasum": ""
             },
             "require": {
@@ -284,7 +284,7 @@
                 }
             ],
             "description": "Lghtweight PHP Framework based on Symfony 2 Component and Eloquent ORM",
-            "time": "2015-01-09 14:27:06"
+            "time": "2015-01-10 12:49:04"
         },
         {
             "name": "psr/log",
