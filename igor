@@ -3,6 +3,7 @@
 <?php
 
 use Paracall\Config\TheConfigurator;
+use Paracall\Console\Commands\MigrateMakeCommand;
 use Paracall\Console\ParacallApp;
 use Paracall\Console\Commands\MigrateCommand;
 use Paracall\Console\Commands\SayHelloCommand;
@@ -17,4 +18,5 @@ $app->setBaseDir(__DIR__);
 
 $app->add(new SayHelloCommand());
 $app->add(new MigrateCommand($app->baseDir, $app->getAppNamespace()));
+$app->add(new MigrateMakeCommand($app->baseDir, $app->getAppNamespace()));
 $app->run();

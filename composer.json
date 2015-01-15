@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "paracall/framework": "dev-develop"
+    "paracall/framework": "dev-develop",
+    "paracall/igor": "dev-develop"
   },
   "autoload": {
     "psr-4": {

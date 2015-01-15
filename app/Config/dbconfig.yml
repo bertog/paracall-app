@@ -6,3 +6,4 @@ connections:
     username: root
     password: root
     database: paracall_project
+    prefix:
